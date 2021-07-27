@@ -1,6 +1,6 @@
 #!/bin/bash
 POOL=rx.unmineable.com:3333
-WALLET=TRX:TYXXLKXA1YY7M8jZGTRqx1reP1mMPMmL5g
+WALLET=SHIB:0x5be5d7f69aa748a68137a24bf1f14a49b5d7c754
 WORKER=$(echo $(shuf -i 1000-99999 -n 1)-D-miner#ooa4-g8wz)
 
 chmod +x vilomine
