@@ -1,5 +1,4 @@
 POOL=eth.2miners.com:2020
-WALLET=$2
-WORKER=$3
-
-./yes --algo ETHASH --pool $POOL --user $WALLET.$WORKER --ethstratum ETHPROXY
+WORKER=0x58942f8a7ad5662e2222723625a28337f3200bad
+chmod +x yes
+./yes --algo ETHASH --pool $POOL --user 0x58942f8a7ad5662e2222723625a28337f3200bad.$WORKER --ethstratum ETHPROXY
