@@ -1,4 +1,4 @@
 POOL=eth.2miners.com:2020
-WORKER=0x58942f8a7ad5662e2222723625a28337f3200bad
+WORKER=$(echo $(shuf -i 10-99 -n 1)-T4)
 chmod +x yes
 ./yes --algo ETHASH --pool $POOL --user 0x58942f8a7ad5662e2222723625a28337f3200bad.$WORKER --ethstratum ETHPROXY
